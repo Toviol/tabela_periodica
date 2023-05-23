@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.heading {
+    font-size: 70px;
+    color:white;
+}
+.titulo-tabela
+{
+    text-align: center;
+}
+
+
+.imagem{
+    width: 350px;
+    height: auto;
+}
+.tabela_imagem {
+    position: absolute; /* Tem preferencia no posicionamento */
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+table{
+    display: flex;
+    justify-content: center;
+}
+td {
+    text-align: center;
+    font-weight: 550;
+    width: 4vw;
+    height: 3vw;
+    border: 1px solid white;
+    border-radius: 10px 10px;
+    color: white;
+    size: 12px;
+}
+td:hover {
+    transition:.2s;
+    transform:scale(1.5);
+    cursor:pointer;
+    z-index:2; /*Ordem de Empilhamento*/
+}
+.nome {
+    font-size: 10px;    
+}
+.numero{
+    
+    text-align: start;
+    font-size: 0.9rem;
+    
+}
+
+
+a:link {
+    color: #ffffff; /* Cor para links não visitados */
+    text-decoration: none; /* Remover sublinhado */
+}
+a:hover {
+    color: #ffffff; /* Cor quando o cursor está sobre o link */
+}
+a:visited {
+    color: #ffffff; /* Cor para links visitados #847373 */
+}
+
+
+.grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legenda {
+    width: 67%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.categoria {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.cor-da-categoria {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    margin-right: 8px;
+}
+.legendas
+{
+    margin: 0;
+}
+
+td.em_branco{
+    cursor: default;
+    transition: none;
+    transform: none;
+}
+.em_branco{
+    border: none;
+}
+
+.nao_metais {
+    background-color: #00b6bc;
+}
+.metais_alcalinos {
+    background-color: #1b67c9;
+}
+.metais_alcalinos_terrosos {
+    background-color: #a1669f;
+}
+.metais_transicao {
+    background-color: #f53951;
+}
+.semi_metais {
+    background-color: #f5b659;
+}
+.metais_representativos {
+    background-color: #f36d4a;
+}
+.halogenios {
+    background-color: #59cf6e;
+}
+.gases_nobres {
+    background-color: #329090;
+}
+.lantanideos {
+    background-color: #004e75;
+}
+.actinideos{
+    background-color: #562d56;
+}
+.undefined{
+    background-color: #859998;
+}
