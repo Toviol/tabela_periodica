@@ -1,3 +1,4 @@
 # tabela_periodica
 
-Professor, não consegui subir a pasta do projeto para o git, tentei bastante aqui, upei arquivo por arquivo kkkkkk
+Tabela Periódica para o Curso de Java da Atos;
+Professor: Deivison Pasa.
